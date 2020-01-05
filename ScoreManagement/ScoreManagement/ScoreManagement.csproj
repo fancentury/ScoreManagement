@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A94C55E-92C4-42A9-B58A-93B3A6C5A67C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ScoreManagement</RootNamespace>
+    <AssemblyName>ScoreManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>四叶草.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\student_manage_sytem\student_manage_sytem\student_manage_sytem\lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enity\course_info.cs" />
+    <Compile Include="Enity\User_info.cs" />
+    <Compile Include="FormApplication\about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApplication\about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormApplication\Course_display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApplication\Course_display.Designer.cs">
+      <DependentUpon>Course_display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormApplication\Course_information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApplication\Course_information.Designer.cs">
+      <DependentUpon>Course_information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormApplication\User_information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApplication\User_information.Designer.cs">
+      <DependentUpon>User_information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormApplication\User_info_display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApplication\User_info_display.Designer.cs">
+      <DependentUpon>User_info_display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\DBlink.cs" />
+    <Compile Include="Tools\Identification.cs" />
+    <Compile Include="Tools\Verification.cs" />
+    <Compile Include="Enity\LoginInfo.cs" />
+    <Compile Include="Enity\Globel.cs" />
+    <Compile Include="Enity\ScoreInfo.cs" />
+    <Compile Include="FormApplication\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApplication\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormApplication\regist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApplication\regist.Designer.cs">
+      <DependentUpon>regist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormApplication\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApplication\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormApplication\about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormApplication\Course_display.resx">
+      <DependentUpon>Course_display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormApplication\Course_information.resx">
+      <DependentUpon>Course_information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormApplication\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormApplication\regist.resx">
+      <DependentUpon>regist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormApplication\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormApplication\User_information.resx">
+      <DependentUpon>User_information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormApplication\User_info_display.resx">
+      <DependentUpon>User_info_display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="四叶草.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\bin\Debug\ScoreManagement.exe
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\bin\Debug\ScoreManagement.pdb
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\obj\x86\Debug\学生成绩管理系统.csprojAssemblyReference.cache
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\obj\x86\Debug\ScoreManagement.Properties.Resources.resources
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\obj\x86\Debug\学生成绩管理系统.csproj.GenerateResource.cache
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\obj\x86\Debug\学生成绩管理系统.csproj.CoreCompileInputs.cache
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\obj\x86\Debug\学生成绩管理系统.csproj.CopyComplete
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\obj\x86\Debug\ScoreManagement.exe
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\obj\x86\Debug\ScoreManagement.pdb
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\obj\x86\Debug\ScoreManagement.MainMenu.resources
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\obj\x86\Debug\ScoreManagement.FormApplication.login.resources
+F:\debug\C#Debug\StuScoreMa-master\dataADUstudy\dataADUstudy\obj\x86\Debug\ScoreManagement.FormApplication.regist.resources
