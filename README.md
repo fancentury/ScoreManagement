@@ -7,7 +7,7 @@
 ### 1.下载MySQL，Navicat，创建数据库student_manage_system，导入数据库文件夹下student_manage_system.sql，直接运行即可
 ### 2.使用visual stdio 2017+版本，点击ScoreManagement文件夹下ScoreManagement.sin启动项目
 ### 3.进入IDE后在右侧解决方案中Tools文件夹下修改DBlink.cs中，如下图所示连接字符串中uid和password部分（*替换为自己的用户名和密码*）
-![连接字符串](https://github.com/geek728/image/连接字符串.png)
+![连接字符串](image/连接字符串.png)
 ### 4.配置完成后，单击解决方案资源管理器中Program.cs（c#项目程序入口）文件运行项目
 ![系统登录](https://github.com/geek728/image/系统登录.png)
 ![二级面板](https://github.com/geek728/image/二级面板.png)
